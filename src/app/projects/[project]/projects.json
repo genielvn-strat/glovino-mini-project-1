@@ -1,0 +1,71 @@
+{
+    "SEKAI-Stories": {
+        "author": "lezzthanthree",
+        "title": "SEKAI-Stories",
+        "regTitle": "SEKAI Stories",
+        "description": "A Dialogue Generator for making fan-made stories from the game Project SEKAI COLORFUL STAGE!",
+        "tags": [
+            "nodejs",
+            "react",
+            "typescript",
+            "vite",
+            "sass",
+            "cloudflare",
+            "live2d",
+            "pixijs",
+            "i18next"
+        ],
+        "imgSrc": "/sekai-stories.png",
+        "sampleImages": [
+            "/sekai-stories-1.png",
+            "/sekai-stories-2.png",
+            "/sekai-stories-3.png"
+        ],
+        "extension": "html",
+        "github": "https://github.com/lezzthanthree/SEKAI-Stories",
+        "website": "https://sekai-stories.pages.dev/"
+    },
+    "SIFAS-Dialogue-Sandbox": {
+        "author": "lezzthanthree",
+        "title": "SIFAS-Dialogue-Sandbox",
+        "regTitle": "SIFAS Dialogue Sandbox",
+        "description": "A Dialogue Sandbox for generating fan-made stories from the now-shut down game, Love Live! School Idol Festival All Stars",
+        "tags": [
+            "nodejs",
+            "react",
+            "javascript",
+            "vite",
+            "sass",
+            "vercel",
+            "netlify",
+            "i18next"
+        ],
+        "imgSrc": "/sifas.png",
+        "sampleImages": ["/sifas-1.png", "/sifas-2.png", "/sifas-3.png"],
+        "extension": "html",
+        "github": "https://github.com/lezzthanthree/SIFAS-Dialogue-Sandbox",
+        "website": "https://sifas-dialogue-sandbox.vercel.app/"
+    },
+    "Liham": {
+        "author": "genielvn",
+        "title": "Liham",
+        "regTitle": "Liham",
+        "description": "A web-based platform designed to foster open, respectful, and meaningful discussions among Philippine university students with anonymity.",
+        "tags": [
+            "nodejs",
+            "nextjs",
+            "sqlite",
+            "typescript",
+            "python",
+            "django",
+            "sass",
+            "conda",
+            "authjs"
+        ],
+        "imgSrc": "/4uni.png",
+        "sampleImages": ["/4uni-1.png", "/4uni-2.png", "/4uni-3.png"],
+        "extension": "html",
+        "github": "https://github.com/genielvn/Liham",
+        "website": ""
+    }
+}
