@@ -7,8 +7,6 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import BackToTopButton from "@/components/BackToTopButton";
 
-
-
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -38,12 +36,29 @@ export default function RootLayout({
 
     return (
         <html lang="en">
+            <head>
+                <link
+                    rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+                ></link>
+            </head>
             <body className="">
-                    {children} 
-                <div style={{ position: "fixed", top: 0, left: 0, width: "100%", zIndex: 1000 }}>
+                {children}
+                <div
+                    style={{
+                        position: "fixed",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        zIndex: 1000,
+                    }}
+                >
                     <motion.div
                         initial={{ opacity: 1, y: 0 }}
-                        animate={{ opacity: showNav ? 1 : 0, y: showNav ? 0 : -150 }}
+                        animate={{
+                            opacity: showNav ? 1 : 0,
+                            y: showNav ? 0 : -150,
+                        }}
                         transition={{ duration: 0.3 }}
                     >
                         <NavBar />
