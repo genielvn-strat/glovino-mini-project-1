@@ -75,7 +75,8 @@ export default function Projects() {
                     "python",
                     "tkinter",
                     "algorithm",
-                    "boyer-moore-algorithm"
+                    "boyer-moore-algorithm",
+                    
                 ]}
                 imgSrc="/pdf-search.png"
             />
