@@ -21,13 +21,13 @@ import Window from "@/components/Window";
 import Link from "next/link";
 
 interface ProjectNameProps {
-    params: {
+    params: Promise<{
         project: string;
-    };
+    }>;
 }
 
-export default function ProjectName({ params }: ProjectNameProps) {
-    const { project } = params;
+export default async function ProjectName({ params }: ProjectNameProps) {
+    const { project } = await params;
 
     if (!data[project]) return notFound();
 
