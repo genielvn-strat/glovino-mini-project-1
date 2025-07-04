@@ -63,8 +63,8 @@
             "authjs"
         ],
         "imgSrc": "/4uni.png",
-        "sampleImages": ["/4uni-1.png", "/4uni-2.png", "/4uni-3.png"],
-        "extension": "exe",
+        "sampleImages": ["/4uni.png"],
+        "extension": "html",
         "github": "https://github.com/genielvn/Liham",
         "website": ""
     },
@@ -73,13 +73,17 @@
         "title": "PDF-Keyword-Search-Engine",
         "regTitle": "PDF Keyword Search Engine",
         "description": "A tool to search keywords on multiple PDF files using Boyer-Moore Search Matching Algorithm.",
-        "tags": ["python", "tkinter", "algorithm", "boyer-moore-algorithm", "", "", ""],
-        "imgSrc": "/pdf-search.png",
-        "sampleImages": [
-            "/pdf-search-1.png",
-            "/pdf-search-2.png",
-            "/pdf-search-3.png"
+        "tags": [
+            "python",
+            "tkinter",
+            "algorithm",
+            "boyer-moore-algorithm",
+            "",
+            "",
+            ""
         ],
+        "imgSrc": "/pdf-search.png",
+        "sampleImages": ["/pdf-search.png"],
         "extension": "exe",
         "github": "https://github.com/genielvn/PDF-Keyword-Search-Engine",
         "website": ""

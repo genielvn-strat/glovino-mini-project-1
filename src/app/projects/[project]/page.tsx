@@ -19,6 +19,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Window from "@/components/Window";
 import Link from "next/link";
+import { Carousel } from "@/components/Carousel";
 
 interface ProjectNameProps {
     params: Promise<{
@@ -32,6 +33,7 @@ export default async function ProjectName({ params }: ProjectNameProps) {
     if (!data[project]) return notFound();
 
     const projectData = data[project];
+    console.log(projectData)
 
     return (
         <ScrollablePageSection>
@@ -45,12 +47,8 @@ export default async function ProjectName({ params }: ProjectNameProps) {
                     title={`${projectData.title}.${projectData.extension}`}
                     noPadding={true}
                 >
-                    <Image
-                        src={projectData.imgSrc}
-                        alt="project-image"
-                        width={768}
-                        height={512}
-                    />
+
+                    <Carousel images={projectData.sampleImages}/>
                 </Window>
                 <h2>Stack</h2>
                 <Image
